@@ -98,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
             {
                 String barcodeContents = intent.getStringExtra("SCAN_RESULT");
                 Log.d("INFO","Barcode: "+barcodeContents);
+                // Here we launch an operation to create a database record and
+                // a query to some website for the product data.
             }
         }
     }
